@@ -7,4 +7,5 @@ __all__ = ["player",
 "items",
 "ship",
 "event",
-"context"]
+"context",
+"location"]

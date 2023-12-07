@@ -289,6 +289,7 @@ class GlimmeringCaverns(location.SubLocation):
             announce("A hidden panel slides away, unveiling the Amulet of the Sky Whisperer!")
             config.the_player.inventory.add(AmuletOfTheSkyWhisperer())
     def explore(self,verb):
+            announce("You have reached the Glimmering Caverns")
         self.move(verb)
         if verb == 'north':
                 config.the_player.next_loc = self.main_location.locations['Silvercliff Summit']
